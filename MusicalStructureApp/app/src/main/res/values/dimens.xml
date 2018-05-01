@@ -5,4 +5,6 @@
     <dimen name="main_textSize">30sp</dimen>
     <dimen name="now_playing_textSize">20sp</dimen>
     <dimen name="music_item_textSize">25sp</dimen>
+    <dimen name="now_playing_bottom">25dp</dimen>
+    <dimen name="now_playing_top">20dp</dimen>
 </resources>

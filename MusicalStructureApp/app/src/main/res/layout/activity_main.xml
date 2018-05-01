@@ -20,13 +20,23 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/main_tittle"
+        android:text="@string/start_button"
+        android:visibility="gone"
+        android:layout_marginTop="-134dp"
+         />
+
     <ListView
         android:id="@+id/song_list"
         android:layout_width="368dp"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/main_tittle">
-
-    </ListView>
+        app:layout_constraintTop_toBottomOf="@+id/play_button"/>
 
 </android.support.constraint.ConstraintLayout>
